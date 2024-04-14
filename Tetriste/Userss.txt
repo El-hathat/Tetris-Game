@@ -1,0 +1,7 @@
+qwerty0 qwerty 0
+qwerty1 qwerty 10
+qwerty2 qwerty 20
+qwerty3 qwerty 50
+qwerty4 qwerty 70
+qwerty5 qwerty 440
+qwerty0 qwerty 0

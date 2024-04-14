@@ -1,0 +1,59 @@
+﻿Build started 14/04/2024 09:32:23.
+     1>Project "C:\Users\lenovo\eclipse\Documents\Visual Studio 2010\Projects\Tetriste\Tetriste\Tetriste.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Tetriste.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Tetriste.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Login.cpp Tetriste.cpp /clr:nostdlib 
+         Login.cpp
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C2691: 'Users' : a managed array cannot have this element type
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C3149: 'cli::array<Type,dimension>' : cannot use this type here without a top-level '^'
+                 with
+                 [
+                     Type=int,
+                     dimension=1
+                 ]
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C2040: 'utilisateurs' : 'cli::array<Type,dimension> ^' differs in levels of indirection from 'std::vector<_Ty>'
+                 with
+                 [
+                     Type=int,
+                     dimension=1
+                 ]
+                 and
+                 [
+                     _Ty=Users
+                 ]
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(585): error C2088: '[' : illegal for class
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(585): error C2228: left of '.login' must have class/struct/union
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(586): error C2088: '[' : illegal for class
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(586): error C2228: left of '.score' must have class/struct/union
+         Tetriste.cpp
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C2691: 'Users' : a managed array cannot have this element type
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C3149: 'cli::array<Type,dimension>' : cannot use this type here without a top-level '^'
+                 with
+                 [
+                     Type=int,
+                     dimension=1
+                 ]
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(569): error C2040: 'utilisateurs' : 'cli::array<Type,dimension> ^' differs in levels of indirection from 'std::vector<_Ty>'
+                 with
+                 [
+                     Type=int,
+                     dimension=1
+                 ]
+                 and
+                 [
+                     _Ty=Users
+                 ]
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(585): error C2088: '[' : illegal for class
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(585): error C2228: left of '.login' must have class/struct/union
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(586): error C2088: '[' : illegal for class
+     1>c:\users\lenovo\eclipse\documents\visual studio 2010\projects\tetriste\tetriste\Form1.h(586): error C2228: left of '.score' must have class/struct/union
+         Generating Code...
+     1>Done Building Project "C:\Users\lenovo\eclipse\Documents\Visual Studio 2010\Projects\Tetriste\Tetriste\Tetriste.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.95
